@@ -1,0 +1,19 @@
+<header>
+
+  <div>
+
+    <a ref="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav>
+
+      <div>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+
+</header>
