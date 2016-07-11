@@ -1,19 +1,18 @@
 <header>
-
-  <div>
-
-    <a ref="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav>
-
-      <div>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand brand-text" href="/">The Stonewall Inn</a>
+        <ul class="nav navbar-nav navbar-right visible-md visible-lg">
+          <li><a class="nav-text" href="/">Home</a></li>
+          <li><a class="nav-text" onclick="$('.info').animatescroll({
+    padding : 75});">Info</a></li>
+          <li><a class="nav-text" onclick="$('.weekly-events').animatescroll({
+    padding : 75});">Weekly Events</a></li>
+          <li><a class="nav-text" onclick="$('.special-events').animatescroll({
+    padding : 75});">Special Events & Shows</a></li>
+          <li><a class="nav-text" onclick="$('.history').animatescroll({
+    padding : 75});">History</a></li>
+        </ul>
+    </div>
+  </nav>
 </header>
