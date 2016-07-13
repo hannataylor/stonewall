@@ -82,6 +82,13 @@
   margin-bottom: 8vh;
 }
 
+.inline-image {
+  float: right;
+  height: 400px;
+  width: auto;
+  margin: 20px;
+}
+
 /* Font Customization */
 .heading {
   font-family: $secondary-font-family;
