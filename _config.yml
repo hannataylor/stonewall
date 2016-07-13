@@ -11,7 +11,8 @@ email: KKelly99@aol.com
 description: > # this means to ignore newlines until "baseurl:"
   53 Christopher Street, New York, NY
   The legendary Stonewall Inn is the birthplace of the modern Gay Rights movement.
-baseurl: "/stonewall" # the subpath of your site, e.g. /blog
+baseurl: ""
+# baseurl: "/stonewall" # the subpath of your site, e.g. /blog
 url: "http://hannataylor.github.io/stonewall" # the base hostname & protocol for your site
 twitter_username: TheStonewallNYC
 facebook_url: TheStonewallInn

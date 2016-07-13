@@ -55,6 +55,14 @@
   color: $lt-gray;
 }
 
+/* Footer */
+.footer {
+  background-color: $black;
+  color: $lt-gray;
+  padding: 10px;
+  text-align: center;
+}
+
 /* Body Elements */
 .site-body {
   margin-top: 3vh;
@@ -110,4 +118,8 @@
   font-style: italic;
   color: white;
   padding-top: 7vh;
+}
+
+.smaller-quote {
+  font-size: 125%;
 }
